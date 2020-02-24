@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <h1 class="visually-hidden">Студия Нёрдс</h1>
+    <nav class="main-navigation">
+      <a href="index.html" class="main-header-logo">
+        <img src="img\nerds-logo.svg" width="160" height="65" alt="Логотип студии Нёрдс"></a>
+      <ul class="navigation-list">
+        <li class="navigation-item"><a class="navigation-item" href="#">Студия</a></li>
+        <li class="navigation-item"><a class="navigation-item" href="#">Клиенты</a></li>
+        <li class="navigation-item"><a class="navigation-item-current" href="">Магазин</a></li>
+        <li class="navigation-item"><a class="navigation-item" href="#">Контакты</a></li>
+      </ul>
+      <ul class="cart-button">
+        <a class="cart-link" href="">
+          <li><button type="button">Корзина</button></li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="">
+      <h2 class="">Магазин готовых шаблонов</h2>
+    </div>
+    <div class="left-column">
+      <section class="filters">
+        <h2 class="visually-hidden">Фильтр товаров</h2>
+
+          <form method="get" action="https://echo.htmlacademy.ru">
+
+            <fieldset>
+              <legend>Стоимость</legend>
+              <input type="range" min="0" max="20000" value="15000" step="1">
+              <span>От</span>
+              <span>До</span>
+            </fieldset>
+
+          <fieldset>
+            <legend>
+              Сетка
+            </legend>
+            <ul class="filter-grids-list">
+              <li class="filter-grid-item"><input type="radio" class="filter-grid-input-radio" name="grid-type"
+                  value="adaptive" id="adaptive grid"><label for="adaptive grid"> Адаптивная</label></li>
+              <li class="filter-grid-item"><input type="radio" class="filter-grid-input-radio" name="grid-type"
+                  value="fixed" id="fixed grid"><label for="fixed grid"> Фикированная</label></li>
+              <li class="filter-grid-item"><input type="radio" class="filter-grid-input-radio" name="grid-type"
+                  value="elastic" id="elastic grid"><label for="elastic grid"> Резиновая</label></li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+            <legend>Особенности</legend>
+            <ul class="filters-features-list">
+              <li class="features-option"><input type="checkbox" class="filter-features-checkbox" name="slider"
+                  id="filter slider" checked><label for="filter slider">Слайдер</label></li>
+              <li class="features-option"><input type="checkbox" class="filter-features-checkbox" name="block"
+                  id="filter block"><label for="filter block">Блок-преимуществ</label></li>
+              <li class="features-option"><input type="checkbox" class="filter-features-checkbox" name="news"
+                  id="filter news" checked><label for="filter news">Новости</label></li>
+              <li class="features-option"><input type="checkbox" class="filter-features-checkbox" name="gallery"
+                  id="filter gallery"><label for="filter gallery">Галерея</label></li>
+              <li class="features-option"><input type="checkbox" class="filter-features-checkbox" name="cart"
+                  id="filter cart"><label for="filter cart">Корзина</label></li>
+            </ul>
+          </fieldset>
+          <button type="submit">
+            Показать
+          </button>
+        </form>
+      </section>
+    </div>
+    <div class="right-column">
+      <!--Здесь будут верхние фильтры-->
+      <section class="goods">
+        <h2 class="visually-hidden">Список готовых шаблонов</h2>
+        <ul class="goods-list">
+          <li class="goods-item">
+            <a>
+              <img src="img\img-sedona-jpg.jpg" width="360" height="576" alt="Проект Седона">
+            </a>
+          </li>
+          <li class="goods-item">
+            <a>
+              <img src="img\img-pink-jpg.jpg" width="360" height="576" alt="Проект Pink">
+            </a>
+          </li>
+          <li class="goods-item">
+            <a>
+              <img src="img\img-barbershop-jpg.jpg" width="360" height="576" alt="Проект Borodinsky">
+            </a>
+          </li>
+          <li class="goods-item">
+            <a>
+              <img src="img\img-mishka-jpg.jpg" width="360" height="576" alt="Проект Mishka">
+            </a>
+          </li>
+          <li class="goods-item">
+            <a>
+              <img src="img\img-aplus-jpg.jpg" width="360" height="576" alt="Проект Aplus">
+            </a>
+          </li>
+          <li class="goods-item">
+            <a>
+              <img src="img\img-kvast-jpg.jpg" width="360" height="576" alt="Проект Kvast">
+            </a>
+          </li>
+
+        </ul>
+      </section>
+    </div>
+    <ul>
+      <li><a>1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li class="next"><a href="#">Следущая</a></li>
+    </ul>
+  </main>
+  <footer class="main-footer">
+    <div class="top-row-footer">
+      <!--Здесь будет карта и форма-->
+      <img src="img\2.jpg" width="1440" height="416" alt="Офис компании по адресу ул. Б. Конюшенная, д. 19
+      г. Санкт-Петербург">
+      <section class="address">
+        <h2>Контактная информация</h2>
+
+        <h3>NЁRDS DESIGN STUDIO</h3>
+        <p>
+          191186, Санкт-Петербург, <br>
+          ул. Б. Конюшенная, д. 19/<br>
+        </p>
+        <p>
+          тел. +7 (812) 275-75-75
+        </p>
+        <a href="map.html">Напишите нам</a>
+      </section>
+    </div>
+    <div class="botton-row-footer">
+      <div class="social">
+        <ul class="social-list">
+          <li class="social-item"><a class="social-link" href="#"><img src="" alt="Иконка вконтакте"></a></li>
+          <li class="social-item"><a class="social-link" href="#"><img src="" alt="Иконка Фейсбук"></a></li>
+          <li class="social-item"><a class="social-link" href="#"><img src="" alt="Иконка Инстаграм"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="discount">
+      <p class="">
+        Давайте дружить, это выгодно!
+      </p>
+      <p>
+        Скидка 10% для друзей из социальных сетей.
+      </p>
+    </div>
+  </footer>
+
+  <section class="contact-us">
+    <h2>Напишите нам</h2>
+    <form class="contact-us-form" action="" method="POST">
+      <p class="contact-us-item">
+        <label for="name">Ваше имя:
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+        </label>
+      </p>
+      <p class="contact-us-item">
+        <label for="email">Ваше имя:
+          <input type="text" name="email" id="email" placeholder="email@example.com">
+        </label>
+      </p>
+      <p class="contact-us-item">
+        <label for="comment">
+          Текст письма
+          <textarea name="comment" id="comment">
+            В свободной форме
+           </textarea>
+        </label>
+      </p>
+      <button type="submit" class="button">
+        Отправить
+      </button>
+
+    </form>
+    <button class="modal-close" type="button">
+      X
+    </button>
+  </section>
+
+</body>
+
+</html>
